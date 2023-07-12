@@ -1,0 +1,85 @@
+/* common css start now */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary{
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #fa255a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+
+}
+.btn-primary1{
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #fff;
+    color: #fa255a;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 10px;
+}
+
+/* nav bar css star now */
+.nav-bar{
+display: flex;
+justify-content: space-around;
+background-color: #E3E0CF;
+padding: 20px;
+align-items: center;
+}
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 15px;
+    color: #fff;
+}
+.nav-link,li,a{
+    color: #fa255a;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* banner section css start now */
+.banner-container{
+    height: 100vh;
+    background-image: url('../media/image/background.jpg'),linear-gradient(90deg, rgba(28,34,41,1) 0%, rgba(25,23,31,1) 100%, rgba(8,11,11,1) 100%);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.banner-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.banner-title >span{
+    color: #fa255a;
+}
+.banner-description{
+    font-size: 15px;
+    padding: 14px;
+    color: #fff;
+    width: 50%;
+    margin: auto;
+}
