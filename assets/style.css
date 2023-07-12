@@ -48,7 +48,7 @@ align-items: center;
     gap: 15px;
     color: #fff;
 }
-.nav-link,li,a{
+.nav-link,a{
     color: #fa255a;
     font-size: 20px;
     font-weight: 600;
@@ -82,4 +82,52 @@ align-items: center;
     color: #fff;
     width: 50%;
     margin: auto;
+}
+
+/* services section star now */
+.services-container{
+    height: 100vh;
+    background-color: rgb(106, 142, 148);
+    display: flex;
+    padding: 50px;
+}
+.services-description{
+    width: 50%;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.services-title{
+    font-size: 25px;
+    font-weight: 800;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.sur-li-des{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    padding-top: 10px;
+}
+.services-left{
+    margin: auto;
+    padding-left: 50px;
+}
+.services-icon{
+    width: 150px;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: darkslategray;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    color: #0b0047;
+}
+.first-tow-box{
+    display: flex;
 }
